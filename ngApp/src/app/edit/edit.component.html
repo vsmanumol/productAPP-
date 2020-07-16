@@ -1,0 +1,66 @@
+
+
+<div class='card'>
+    
+    <div class='card-header'>
+        {{title}}
+    </div>
+
+<div class='card-body'>
+
+<div class="table-resposive">
+    <!-- <form (ngSubmit)="AddeditProduct()"> -->
+        <form>
+    <table class='table'>
+        
+        <tbody>
+        <tr>
+            <td><label>Product Id</label></td>
+            <td><input type="text" name="p_id" [(ngModel)]="productItem.productId"></td>
+        </tr>
+        <tr>
+            <td><label>productName</label></td>
+            <td><input type="text" name="p_name" [(ngModel)]="productItem.productName"></td>
+        </tr>
+        <tr>
+            <td><label> productCode</label></td>
+            <td><input type="text" name="p_code" [(ngModel)]="productItem.productCode"></td>
+        </tr>
+        <tr>
+            <td><label>releaseDate</label></td>
+            <td><input type="text" name="p_date" [(ngModel)]="productItem.releaseDate"></td>
+        </tr>
+        <tr>
+            <td><label>description</label></td>
+            <td><input type="text" name="p_des" [(ngModel)]="productItem.description"></td>
+        </tr>
+        <tr>
+            <td><label>price</label></td>
+            <td><input type="text" name="p_price" [(ngModel)]="productItem.price"></td>
+        </tr>
+        <tr>
+            <td><label>starRating</label></td>
+            <td><input type="text" name="p_srate" [(ngModel)]="productItem.starRating"></td>
+        </tr>
+        <tr>
+            <td><label>imageUrl</label></td>
+            <td><input type="text" name="p_imge" [(ngModel)]="productItem.imageUrl"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="submit"></td>
+        </tr>
+        
+        </tbody>
+        </table>
+        </form>
+  
+    
+    </div>
+
+</div>
+
+
+
+
+
